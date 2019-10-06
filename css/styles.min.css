@@ -1803,8 +1803,8 @@ textarea.error::-webkit-input-placeholder {
 
 .fuct-items .fuct-item .icon {
     margin: 0 auto;
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
     text-align: center;
     font-size: 32px;
     color: #78cc6d
@@ -1814,7 +1814,7 @@ textarea.error::-webkit-input-placeholder {
 .fuct-items .fuct-item .icon .fas,
 .fuct-items .fuct-item .icon .ion {
     display: block;
-    line-height: 60px
+    line-height: 120px
 }
 
 .fuct-items .fuct-item .name {
