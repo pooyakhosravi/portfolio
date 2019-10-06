@@ -49,6 +49,12 @@
 	-->
 	<link rel="shortcut icon" href="images/favicons/favicon.ico">
 
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+
 
 
 </head>
@@ -106,6 +112,12 @@
 							</a>
 						</li>
 						<li>
+							<a href="#education-card">
+								<span class="icon ion ion-university"></span>
+								<span class="link">Education</span>
+							</a>
+						</li>
+						<li>
 							<a href="#resume-card">
 								<span class="icon ion-android-list"></span>
 								<span class="link">Resume</span>
@@ -118,21 +130,21 @@
 							</a>
 						</li>
 						<li>
-							<a href="#pub-card">
+							<a href="#research-card">
 								<span class="icon ion-erlenmeyer-flask"></span>
 								<span class="link">Research</span>
 							</a>
 						</li>
 						<li>
-							<a href="#groups-card">
-								
+							<a href="#activities-card">
+
 								<span class="icon ion-android-people"></span>
 								<span class="link">Activities</span>
 							</a>
 						</li>
 						<li>
-							<a href="#groups-card">
-								
+							<a href="#awards-card">
+
 								<span class="icon ion-trophy"></span>
 								<span class="link">Awards</span>
 							</a>
@@ -148,31 +160,28 @@
 
 			</header>
 
-			<!--
-				Card - Started
-			-->
 			<div class="card-started" id="home-card">
 
 				<!--
 					Profile
 				-->
 				<div class="profile">
-
+			
 					<!-- profile image -->
 					<div class="slide" style="background-image: url(images/profile.jpg);"></div>
-
+			
 					<!-- profile photo -->
 					<div class="image">
 						<img src="images/PooyaKhosravi.jpg" alt="" />
 					</div>
-
+			
 					<!-- profile titles -->
 					<div class="title">Pooya Khosravi</div>
 					<span class="subtitle" data-text1="Software Engineer" data-text2="Machine Learning Enthusiast"
 						data-text3="Researcher" data-loop="true" data-backdelay="2000"></span>
-
-
-
+			
+			
+			
 					<!-- profile socials -->
 					<div class="social">
 						<a target="_blank" title="Google Scholar"
@@ -182,14 +191,12 @@
 								class="fab fa-github"></span></a>
 						<a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/khosravipooya/"><span
 								class="fab fa-linkedin"></span></a>
-						<a target="_blank" title="Research Gate"
-							href="https://www.researchgate.net/profile/Pooya_Khosravi"><span
+						<a target="_blank" title="Research Gate" href="https://www.researchgate.net/profile/Pooya_Khosravi"><span
 								class="fab ai ai-researchgate"></span></a>
-						<a target="_blank" title="PubMed"
-							href="https://www.ncbi.nlm.nih.gov/pubmed/?term=pooya+khosravi"><span
+						<a target="_blank" title="PubMed" href="https://www.ncbi.nlm.nih.gov/pubmed/?term=pooya+khosravi"><span
 								class="fab ai ai-pubmed"></span></a>
 					</div>
-
+			
 					<!-- profile buttons -->
 					<div class="lnks">
 						<a href="#" class="lnk">
@@ -201,175 +208,83 @@
 							<span class="arrow"></span>
 						</a>
 					</div>
-
+			
 				</div>
-
-			</div>
-
-			<!-- 
-				Card - About
-			-->
-			<div class="card-inner animated active" id="about-card">
-				<div class="card-wrap">
-
-					<!-- 
-						About 
-					-->
-					<div class="content about">
-
-						<!-- title -->
-						<div class="title">About Me</div>
-
-						<!-- content -->
-						<div class="row">
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-								<div class="text-box">
-									<p>
-										Hello from Irvine, California! I am Pooya Khosravi, an undergraduate student at University of California, Irivne (UCI). 
-										I am interested in robotic process automation (RPA), 
-										artifical intelligence (AI), and machine learning (ML) in Medicine and the Legal Industry.
-										I have experience in full-stack development, building automation tools, and data analytics through my research, internships, and projects. 
-									</p>
-									<p>
-										I believe in growth by tackling and solving challenging problems - one my favorite quotes is "There is nothing like a challenge to bring out the best in man".
-									</p>
-								</div>
-								
-							</div>
-							<div class="clear"></div>
-						</div>
-
-					</div>
-
-					<!--
-						Services
-					-->
-					<div class="content services">
-
-						<!-- title -->
-						<div class="title">A Few of My Hobbies</div>
-
-						<!-- content -->
-						<div class="row service-items border-line-v">
-
-							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
-								<div class="service-item">
-									<div class="icon"><span class="ion ion-android-compass"></span></div>
-									<div class="name">Hiking</div>
-									<p>
-										Outdoor adventures and hiking in beautiful and scenic nature.
-									</p>
-								</div>
-							</div>
-
-							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
-									<div class="service-item">
-										<div class="icon"><span class="ion ion-ios-basketball"></span></div>
-										<div class="name">Playing Basketball</div>
-										<p>
-											In-door and out-door basketball with friends.
-										</p>
-									</div>
-								</div>
-
-							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12">
-								<div class="service-item">
-									<div class="icon"><span class="ion ion-ipod"></span></div>
-									<div class="name">Listening to Podcasts</div>
-									<p>
-										Podcasts about science, history, philosophy and news. 
-									</p>
-								</div>
-							</div>
-
-							<!-- service item -->
-							<div class="col col-d-6 col-t-6 col-m-12">
-								<div class="service-item">
-									<div class="icon"><span class="ion ion-ios-game-controller-b"></span></div>
-									<div class="name">Gaming</div>
-									<p>
-										Real-time stragety, Construction and management simulation games like Factorio 
-									</p>
-								</div>
-							</div>
-
-							<div class="clear"></div>
-						</div>
-					</div>
-				</div>
+			
 			</div>
 
 
-			<!--
-				Card - Contacts
-			-->
-			<div class="card-inner contacts" id="contacts-card">
-				<div class="card-wrap">
-
-					<!--
-						Conacts Info
-					-->
-					<div class="content contacts">
-
-						<!-- title -->
-						<div class="title">Get in Touch</div>
-
-
-						<!-- content -->
-						<div class="row">
-							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
-									<div class="text-box">
-											<p>
-												Feel free to connect/message me on LinkedIn. You can also email me.
-											</p>
-										</div>
-										
-								<div class="info-list">
-									<ul>
-										<li><strong>LinkedIn://</strong> <a href="https://www.linkedin.com/in/khosravipooya/"> khosravipooya</a></li>
-										<li><strong>Email://</strong> <a href="mailto:pooya32kh@gmail.com"> pooya32kh@gmail.com </a> </li>
-									</ul>
-								</div>
-							</div>
-							<div class="clear"></div>
-						</div>
-
-					</div>
-				</div>
-			</div>
+			
+			<div id="loadaboutme-card"></div>
+			<div id="loadeducation-card"></div>
+			<div id="loadresume-card"></div>
+			<div id="loadproject-card"></div>
+			<div id="loadresearch-card"></div>
+			<div id="loadactivites-card"></div>
+			<div id="loadawards-card"></div>
+			<div id="loadcontact-card"></div>
 
 		</div>
 	</div>
 
 
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-	<script src="js/scripts.min.js"></script>
 
-	<script>
-		// HOME TYPED JS
-		if ($('.subtitle').length) {
-			$('.subtitle').each(function () {
-				new Typed(".subtitle", {
-					strings: [$(this).data('text1'), $(this).data('text2'), $(this).data('text3')],
-					loop: $(this).data('loop') ? $(this).data('loop') : false,
-					backDelay: $(this).data('backdelay') ? $(this).data('backdelay') : 3000,
-					typeSpeed: 20,
-					backSpeed: 10,
-					contentType: 'html'
-				});
+
+
+	<script> 
+
+	jQuery.loadScript = function (url, callback) {
+		jQuery.ajax({
+			url: url,
+			dataType: 'script',
+			success: callback,
+			async: true
+		});
+	}
+
+	// to load the cards
+		$(function(){
+			let cards = new Map();
+			cards.set('loadaboutme-card', 'cards/aboutme.html');
+			cards.set('loadeducation-card', 'cards/education.html');
+			cards.set('loadresume-card', 'cards/resume.html');
+			cards.set('loadproject-card', 'cards/projects.html');
+			cards.set('loadresearch-card', 'cards/research.html');
+			cards.set('loadactivites-card', 'cards/activities.html');
+			cards.set('loadawards-card', 'cards/awards.html');
+			cards.set('loadcontact-card', 'cards/contact.html');
+	
+			for (var [key, value] of cards) {
+				$("#"+key).load(value); 
+			}
+
+			$.loadScript('https://cdn.jsdelivr.net/npm/typed.js@2.0.11', function(){
+				// HOME TYPED JS
+				if ($('.subtitle').length) {
+					$('.subtitle').each(function () {
+						new Typed(".subtitle", {
+							strings: [$(this).data('text1'), $(this).data('text2'), $(this).data('text3')],
+							loop: $(this).data('loop') ? $(this).data('loop') : false,
+							backDelay: $(this).data('backdelay') ? $(this).data('backdelay') : 6000,
+							typeSpeed: 20,
+							backSpeed: 10,
+							contentType: 'html'
+						});
+					});
+				}
 			});
-		}
+			$.loadScript('js/scripts.min.js');
+			
+			
+			
+		});
 	</script>
-	<!--
-		jQuery Scripts
-	-->
+
+	
+<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src="js/scripts.min.js"></script>
+			 -->
 
 
 
