@@ -7,7 +7,7 @@ html {
     font-size: 14px;
     line-height: 20px;
     background-color: #fff;
-    box-shadow: 0 1px 4px rgba(0,0,0,.14);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .14);
     padding: 5px 10px;
     margin-right: 10px;
     border-radius: 3px
@@ -25,9 +25,11 @@ html {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -37,9 +39,11 @@ html {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -49,9 +53,11 @@ html {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -1199,6 +1205,23 @@ textarea.error::-webkit-input-placeholder {
     .header .top-menu ul li:last-child a:before {
         display: block
     }
+
+
+    .header .top-menu ul li a .link {
+        position: absolute;
+        left: 0;
+        top: 57%;
+        width: 100%;
+        display: block;
+        font-size: 9px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -webkit-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s
+    }
+
 }
 
 @media (max-width:560px) {
@@ -1210,6 +1233,23 @@ textarea.error::-webkit-input-placeholder {
     .header .top-menu {
         max-width: 100%
     }
+
+
+    .header .top-menu ul li a .link {
+        position: absolute;
+        left: 0;
+        top: 57%;
+        width: 100%;
+        display: block;
+        font-size: 7px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: all .3s ease 0s;
+        -moz-transition: all .3s ease 0s;
+        -webkit-transition: all .3s ease 0s;
+        -o-transition: all .3s ease 0s
+    }
+
 }
 
 .card-started {
@@ -2312,7 +2352,7 @@ textarea.error::-webkit-input-placeholder {
 @media (max-width:1023px) {
     .header .top-menu ul li a {
         padding-bottom: 0;
-        height: 75px
+        /* height: 75px */
     }
 }
 
